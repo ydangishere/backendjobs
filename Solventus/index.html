@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Dang Van Y</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      background: #fff;
+      color: #000;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      background-color: #c9f3f4;
+      padding: 5px 8px;
+      color: #000;
+      border-left: 5px solid #009fa6;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .section {
+      margin-bottom: 12px;
+    }
+    .section h3 {
+      margin-bottom: 0;
+      margin-top: 8px;
+    }
+    .section h3 + p {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .section ul {
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    .section p {
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    .section ul + p {
+      margin-top: 0;
+    }
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .personal-details {
+      margin-bottom: 10px;
+    }
+    .personal-details img {
+      width: 120px;
+      height: auto;
+      border-radius: 8px;
+      object-fit: contain;
+      max-height: none;
+      margin-top: 10px;
+    }
+    .career-table {
+      margin-bottom: 0;
+    }
+    .career-table th,
+    .career-table td {
+      padding: 4px 8px;
+    }
+    li {
+      margin-bottom: 3px;
+    }
+    h1 {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      font-size: 1.7em;
+    }
+    .portfolio a,
+    .trainings a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    .portfolio a:hover,
+    .trainings a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .career-table td {
+      vertical-align: top;
+    }
+    .career-table td strong {
+      display: inline-block;
+    }
+    p {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    
+    /* Hide header and footer when printing */
+    @media print {
+      @page {
+        margin: 0.5cm;
+        size: auto;
+      }
+      body {
+        padding: 0;
+        margin: 0.5cm;
+      }
+      /* Hide date/time and URL when printing */
+      head, header, footer {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Curriculum Vitae — Remote Full Stack Developer</h1>
+
+  <div class="section personal-details">
+    <h2>Personal Details</h2>
+    <div class="flex">
+      <div>
+        <p><strong>Name:</strong> DANG VAN Y</p>
+        <p><strong>Mobile:</strong> 0908133919 | Email: dangvany@gmail.com</p>
+        <p><strong>Gender:</strong> Male</p>
+        <p><strong>Marital Status:</strong> Married</p>
+        <p><strong>Citizen of:</strong> Vietnam</p>
+        <p><strong>Position Applied:</strong> Full Stack Developer (Next.js, TypeScript)</p>
+      </div>
+      <img src="hinh-the.png" alt="Dang Van Y">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Career Summary</h2>
+    <table class="career-table" style="width: 100%; border-collapse: collapse;">
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 4px 8px; border: 0; text-align: left;">Timeline</th>
+        <th style="padding: 4px 8px; border: 0; text-align: left;">Company & Position</th>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Sep 2022 to Present</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>GEAR INC</strong> - Full Stack Developer (Java, React.js)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Nov 2020 to August 2022</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>SACOMBANK</strong> - Full Stack Developer (Java, React.js)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Sep 2016 to Oct 2020</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>PRUDENTIAL FINANCE</strong> - Full Stack Developer (Java, React.js)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Jul 2013 to Aug 2016</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>RINGER VIETNAM</strong> - Senior Frontend Developer (React.js)
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Professional Experience</h2>
+    <h3>GEAR INC (Sep 2022 to Present)</h3>
+    <p><strong>Full Stack Developer (Java, React.js)</strong></p>
+    <ul>
+      <li>Built and shipped features across Next.js and React/TypeScript platform; designed RESTful APIs and real-time data flows (PostgreSQL, Supabase-compatible)</li>
+      <li>Developed multi-tenant dashboards with role-based access control (RBAC) for finance partners; Material-UI, Redux, React Query</li>
+      <li>Integrated third-party services: KYC providers, payment processors, device management APIs; designed database schemas, wrote migrations</li>
+      <li>Worked with AWS infrastructure: S3, Lambda, KMS, Secrets Manager; CI/CD pipelines (GitHub Actions); kept systems secure and scalable</li>
+      <li>Collaborated directly with leadership on architecture decisions and technical direction; led code reviews; self-directed delivery</li>
+    </ul>
+
+    <h3>SACOMBANK VIETNAM (Nov 2020 to 2022)</h3>
+    <p><strong>Full Stack Developer (Java, React.js)</strong></p>
+    <ul>
+      <li>Built user-facing dashboards for finance partners with React/TypeScript; multi-tenant digital banking platform with RBAC and compliance</li>
+      <li>Integrated KYC providers and payment processors; designed RESTful APIs, PostgreSQL schema, migrations; real-time subscriptions (Supabase-compatible patterns)</li>
+      <li>Authentication, authorization, security best practices to meet banking compliance; JWT, session management</li>
+      <li>AWS (S3, KMS, Secrets Manager); Jenkins CI/CD; optimized database queries (reduced load time by 35%); unit and integration tests</li>
+    </ul>
+
+    <h3>PRUDENTIAL FINANCE (Sep 2016 to 2020)</h3>
+    <p><strong>Full Stack Developer (Java, React.js)</strong></p>
+    <ul>
+      <li>Designed and implemented RESTful APIs for fintech platform; PostgreSQL, migrations, Row Level Security patterns</li>
+      <li>Built React/TypeScript dashboards with role-based access; integrated payment flows and backend services</li>
+      <li>Auth and security best practices; JUnit, Mockito; Agile/Scrum; took ownership of features end-to-end</li>
+    </ul>
+
+    <h3>RINGER VIETNAM (Jul 2013 to Aug 2016)</h3>
+    <p><strong>Senior Frontend Developer (React.js)</strong></p>
+    <ul>
+      <li>Built web applications with React.js, TypeScript, JavaScript; responsive UIs and reusable components</li>
+      <li>Connected frontend to backend via RESTful APIs; PostgreSQL; Agile teams with Git</li>
+    </ul>
+
+  </div>
+
+  <div class="section">
+    <h2>Academic Background</h2>
+    <p><strong>2001 to 2005:</strong> Bachelor of Design and Multimedia, Major in Communication Design, RMIT Vietnam</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills and Knowledge</h2>
+    <ul>
+      <li><strong>Stack:</strong> Next.js, React, TypeScript (3+ years production); RESTful APIs, real-time data flows; PostgreSQL, Supabase (Row Level Security, real-time subscriptions)</li>
+      <li><strong>Backend:</strong> Database schema design, migrations; Node.js (Express, NestJS); Java, Spring Boot; auth, authorization, RBAC, security best practices</li>
+      <li><strong>Platform:</strong> Multi-tenant SaaS dashboards; role-based access control; integration with KYC providers, payment processors, device management APIs</li>
+      <li><strong>AWS:</strong> S3, Lambda, KMS, Secrets Manager; CI/CD pipelines (GitHub Actions, Jenkins); Docker</li>
+      <li><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB; Redis, ElasticSearch, Kafka; design and optimization</li>
+      <li><strong>Process:</strong> Self-directed; take problems, break down, ship solutions; architecture decisions; Agile/Scrum, JIRA</li>
+      <li><strong>AI tools:</strong> LLM-based tooling, AI/ML integrations (personal projects)</li>
+    </ul>
+    <p><strong>Languages:</strong> English (Fluent), Vietnamese (Excellent)</p>
+  </div>
+
+  <div class="section portfolio">
+    <h2>Portfolio</h2>
+    <ul>
+      <li><strong>Payment Gateway:</strong> Demo payment flow: create order, redirect, callback, verify, update DB. Next.js (App Router), TypeScript, TailwindCSS, SQLite. Idempotency, signature verification. — <a href="https://github.com/ydangishere/dev-projects/tree/main/nextjs-payment" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>AI Backend Job Finder:</strong> Scrapes job sites, LLM filters backend jobs, desktop UI. — <a href="https://github.com/ydangishere/backend/tree/master/aibackendjob_finder" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>AI Email Router:</strong> LLM classifies email intent, routes to department, desktop app. — <a href="https://github.com/ydangishere/backend/tree/master/AIemailrouter" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>Case mini backend:</strong> Mini case/order management API: CRUD, validation, pagination. Spring Boot, Redis cache, Swagger, Docker. — <a href="https://github.com/ydangishere/backend/tree/master/case-mini-backend" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>Microservices:</strong> Multiple Spring Boot services, event-driven via Kafka. PostgreSQL, Redis, built to scale, Docker. — <a href="https://github.com/ydangishere/backend/tree/master/microservices" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>Payment transaction API:</strong> Safe payment transaction API: idempotency keys to avoid duplicates, transaction-safe DB operations. Spring Boot, PostgreSQL, Redis. — <a href="https://github.com/ydangishere/backend/tree/master/payment-transaction-api" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>SSO:</strong> Single sign-on: login once, use many apps. Auth service (JWT, session) + multiple client apps. Spring Boot, H2/PostgreSQL, Docker. — <a href="https://github.com/ydangishere/dev-projects/tree/main/sso" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li>WWE Champions Game (Product Management & UI) - <a href="https://www.figma.com/design/ZFH2TVKmdNAHc0jWTG9qUg/WWE-V2--edit---y-console---Copy---Copy-?node-id=341-4567&t=jeMWRPQ0KuRZJy2y-1" target="_blank">View link</a></li>
+      <li>Sacombank Digital Banking Platform (Product Owner) - <a href="https://www.figma.com/design/RbxOSHy84nMzCKU5o7CLTB/Sacombank-Design-Direction---private?node-id=1307-3370&t=2FCqcArhQglGicvf-4" target="_blank">View link</a></li>
+      <li>HDBank Mobile App (Product Strategy) - <a href="https://www.figma.com/proto/6c79HQU7BMNJiDNB7KqVNA?node-id=0-1&t=ibNOW04ku8qBZo3N-6" target="_blank">View link</a></li>
+      <li>Third Place Marketplace (Product Owner) - <a href="https://www.figma.com/design/DH3wYYvun3dm4fXI1Wh73Q/Third-Place---(Backup30nov)?node-id=37-8778&t=tsZj3I5P4vBfh7R6-4" target="_blank">View link</a></li>
+      <li>EVN App (Product Roadmap) - <a href="https://www.figma.com/design/lWJflNkyUKWSvsEkEyH0Mg/PTI-2-VNPOST-(Copy)?node-id=0-1&t=6czU6mrEBZr9GktR-1" target="_blank">View link</a></li>
+      <li>Propzy Mortgage (Product Requirements) - <a href="https://www.figma.com/design/tFr8f3NxSw4UbuW4C7tPnd/Mortgage-Improvement--Y-?node-id=416-20016&t=THUh8yxVXjEWYXjB-4" target="_blank">View link</a></li>
+      <li>Product Management Documentation - <a href="https://www.figma.com/design/XUQ8bKHFJVAJpGmLvjG9mO/Untitled-(Copy)?node-id=0-1&t=FCGqLMKqKOmzD1el-1" target="_blank">View link</a></li>
+      <li>EIM (Employee Management) - <a href="https://www.figma.com/design/PAowgGrjCfuKk3qsgIsPab/EIM--Employee-information-management---Copy-?node-id=163-132669&t=vTDYP3I0lFOdq5LO-1" target="_blank">View link</a></li>
+      <li>BPO (ERP) - <a href="https://www.figma.com/design/JsUJYt9olEDGGBSPEtuej7/BPO--Copy-?node-id=424-10969&t=9DZaj4t7cdQpMd2b-1" target="_blank">View link</a></li>
+    </ul>
+  </div>
+
+  <div class="section trainings">
+    <h2>Other Trainings</h2>
+    <ul>
+      <li>Product Management Professional Certificate - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>Certified Scrum Product Owner (CSPO) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>Google UX Design Certificate (Coursera) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>AWS Certified Cloud Practitioner - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>Data Analytics for Product Managers - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>The Complete Web Development Bootcamp (Udemy) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+    </ul>
+  </div>
+</body>
+</html>
