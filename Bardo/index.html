@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Dang Van Y</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      background: #fff;
+      color: #000;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      background-color: #c9f3f4;
+      padding: 5px 8px;
+      color: #000;
+      border-left: 5px solid #009fa6;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .section {
+      margin-bottom: 12px;
+    }
+    .section h3 {
+      margin-bottom: 0;
+      margin-top: 8px;
+    }
+    .section h3 + p {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .section ul {
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    .section p {
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    .section ul + p {
+      margin-top: 0;
+    }
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .personal-details {
+      margin-bottom: 10px;
+    }
+    .personal-details img {
+      width: 120px;
+      height: auto;
+      border-radius: 8px;
+      object-fit: contain;
+      max-height: none;
+      margin-top: 10px;
+    }
+    .career-table {
+      margin-bottom: 0;
+    }
+    .career-table th,
+    .career-table td {
+      padding: 4px 8px;
+    }
+    li {
+      margin-bottom: 3px;
+    }
+    h1 {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      font-size: 1.7em;
+    }
+    .portfolio a,
+    .trainings a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    .portfolio a:hover,
+    .trainings a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .career-table td {
+      vertical-align: top;
+    }
+    p {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    
+    /* Hide header and footer when printing */
+    @media print {
+      @page {
+        margin: 0.5cm;
+        size: auto;
+      }
+      body {
+        padding: 0;
+        margin: 0.5cm;
+      }
+      /* Hide date/time and URL when printing */
+      head, header, footer {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Curriculum Vitae</h1>
+
+  <div class="section personal-details">
+    <h2>Personal Details</h2>
+    <div class="flex">
+      <div>
+        <p><strong>Name:</strong> DANG VAN Y</p>
+        <p><strong>Mobile:</strong> 0908133919 | <strong>Email:</strong> dangvany@gmail.com</p>
+        <p><strong>Gender:</strong> Male</p>
+        <p><strong>Marital Status:</strong> Married</p>
+        <p><strong>Citizen of:</strong> Vietnam</p>
+        <p><strong>Position Applied:</strong> Remote - Senior Full-Stack Developer (SvelteKit &amp; Supabase) - Bardo</p>
+      </div>
+      <img src="hinh-the.png" alt="Dang Van Y">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Career Summary</h2>
+    <table class="career-table" style="width: 100%; border-collapse: collapse;">
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 4px 8px; border: 0; text-align: left;">Timeline</th>
+        <th style="padding: 4px 8px; border: 0; text-align: left;">Company & Position</th>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Sep 2022 to Present</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>GEAR INC</strong> - Senior Full Stack Developer (Java, React.js)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Nov 2020 to August 2022</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>SACOMBANK</strong> - Full Stack Developer (Java, React.js)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Sep 2016 to Oct 2020</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>PRUDENTIAL FINANCE</strong> - Full Stack Developer (Java, React.js)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Jul 2013 to Aug 2016</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>RINGER VIETNAM</strong> - Frontend Developer (React.js)
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Professional Experience</h2>
+    <h3>GEAR INC (Sep 2022 to Present)</h3>
+    <p><strong>Senior Full Stack Developer (Java, React.js)</strong></p>
+    <ul>
+      <li>Primary production work: Next.js (App Router), React, and TypeScript end-to-end features with Java/Spring and Node backends where applicable; PostgreSQL schemas, migrations, and auth-aware data access. For Bardo-style stacks, a dedicated SvelteKit + Supabase reference build is in portfolio (see links below) so SvelteKit and Supabase are evidenced as first-class, not only as analogies to Next.js.</li>
+      <li>Supabase-aligned delivery on the job: Postgres with explicit Row Level Security-style rules, JWT/session-aware roles, and real-time style subscriptions where dashboards needed live updates; when the product used managed Supabase, responsibilities covered Auth integration, policy design with the team, Storage for artifacts, and Realtime channels where appropriate (scope varies by release).</li>
+      <li>Translated product asks into shippable UI and API design when specs were thin: sensible defaults, accessible flows, and trade-offs between UX polish and delivery risk; multi-tenant finance dashboards with RBAC (Material-UI, Redux, React Query).</li>
+      <li>Integrated third-party APIs and services (KYC, payments, device management); hardened boundaries with validation, idempotency where payments mattered, and clear error handling for operators.</li>
+      <li>Partnered with platform/DevOps on CI/CD (GitHub Actions), environments, secrets, and performance: AWS (S3, Lambda, KMS, Secrets Manager); Docker; tuning hot queries and real-time paths under load.</li>
+      <li>Contributed to architecture and technical direction: led reviews, flagged security and scalability risks early, and shipped with tests where regressions were costly.</li>
+    </ul>
+
+    <h3>SACOMBANK VIETNAM (Nov 2020 to 2022)</h3>
+    <p><strong>Full Stack Developer (Java, React.js)</strong></p>
+    <ul>
+      <li>Built user-facing dashboards for finance partners with React/TypeScript on a multi-tenant digital banking platform: RBAC, audit-friendly flows, and compliance constraints.</li>
+      <li>Designed REST APIs and PostgreSQL schemas with migrations; implemented authn/authz (JWT, sessions) and data access patterns that align with Supabase-style Postgres: strict RLS-style row controls, least-privilege roles, and real-time subscription patterns for operational dashboards.</li>
+      <li>Integrated KYC and payment processors with clear trust boundaries; defensive validation and monitoring hooks suitable for regulated traffic.</li>
+      <li>Worked with engineering operations on Jenkins CI/CD, AWS (S3, KMS, Secrets Manager), and performance work (query and load improvements on a key path); unit and integration tests.</li>
+    </ul>
+
+    <h3>PRUDENTIAL FINANCE (Sep 2016 to 2020)</h3>
+    <p><strong>Full Stack Developer (Java, React.js)</strong></p>
+    <ul>
+      <li>Owned REST API design and delivery for a fintech stack on PostgreSQL: migrations, constraints, and Row Level Security-style enforcement patterns that mirror how Supabase RLS is applied in product engineering.</li>
+      <li>Built React/TypeScript dashboards with role-based access; integrated payment flows and partner services with pragmatic UX when wireframes lagged delivery.</li>
+      <li>Security-minded delivery: auth flows, reviews, and automated tests (JUnit, Mockito); Agile/Scrum; end-to-end ownership from clarification to release.</li>
+    </ul>
+
+    <h3>RINGER VIETNAM (Jul 2013 to Aug 2016)</h3>
+    <p><strong>Frontend Developer (React.js)</strong></p>
+    <ul>
+      <li>Shipped responsive web apps with React.js, TypeScript, and JavaScript; component libraries and reusable interaction patterns.</li>
+      <li>Integrated REST APIs against PostgreSQL-backed services; collaborated in Agile teams with Git and a product-first mindset.</li>
+    </ul>
+
+  </div>
+
+  <div class="section">
+    <h2>Academic Background</h2>
+    <p>2001 to 2005: Bachelor of Design and Multimedia, Major in Communication Design, RMIT Vietnam</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills and Knowledge</h2>
+    <ul>
+      <li>SvelteKit &amp; Supabase (core): SvelteKit for full-stack web (routing, layouts, server load, form actions, +server endpoints). Supabase: Auth, Postgres, Row Level Security policies, Storage buckets, Realtime channels, typed supabase-js usage. Day-job production anchor remains Next.js (App Router) + React + TypeScript; SvelteKit + Supabase depth is demonstrated in the portfolio repos below (owner: design schema, policies, and app wiring).</li>
+      <li>Full-stack delivery: REST and event-style integrations; schema design, migrations, and performance tuning; multi-tenant SaaS dashboards; RBAC; third-party APIs (KYC, payments, device management).</li>
+      <li>Backend: Node.js (Express, NestJS); Java, Spring Boot; authn/authz, sessions/JWT, secrets handling, and secure API boundaries.</li>
+      <li>Cloud &amp; DevOps collaboration: AWS (S3, Lambda, KMS, Secrets Manager) in production; comfortable following GCP runbooks with DevOps (e.g. Google Maps Platform keys, service accounts); Docker; CI/CD with GitHub Actions and Jenkins; environment promotion and release hygiene. DigitalOcean only where a team already standardizes on it (not a primary claim).</li>
+      <li>Databases &amp; data paths: PostgreSQL (primary), MySQL, MongoDB; Redis, ElasticSearch, Kafka; query optimization and safe patterns under load.</li>
+      <li>UX &amp; product engineering: Comfortable making UI/UX calls when designs are incomplete; balances usability, accessibility, and engineering cost in small iterations.</li>
+      <li>Process: Ownership beyond tickets; architecture discussions; pragmatic trade-offs; Agile/Scrum, JIRA.</li>
+      <li>Nice-to-have: Python for glue services and automation; AI/LLM integrations (APIs, filtering/classification workflows; personal projects).</li>
+    </ul>
+    <p>Languages: English (Fluent), Vietnamese (Excellent)</p>
+  </div>
+
+  <div class="section portfolio">
+    <h2>Portfolio</h2>
+    <ul>
+      <li>SvelteKit + Supabase (multi-tenant demo, sole owner): SSR, protected routes, Supabase Auth; Postgres schema with RLS, role/JWT policies, Storage scoped by org. README has env and local run. - <a href="https://github.com/ydangishere/dev-projects/tree/main/hrm" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li>Payment Gateway: Demo payment flow: create order, redirect, callback, verify, update DB. Next.js (App Router), TypeScript, TailwindCSS, SQLite. Idempotency, signature verification. - <a href="https://github.com/ydangishere/dev-projects/tree/main/nextjs-payment" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li>AI Backend Job Finder: Scrapes job sites, LLM filters backend jobs, desktop UI. - <a href="https://github.com/ydangishere/backend/tree/master/aibackendjob_finder" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li>AI Email Router: LLM classifies email intent, routes to department, desktop app. - <a href="https://github.com/ydangishere/backend/tree/master/AIemailrouter" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li>Case mini backend: Mini case/order management API: CRUD, validation, pagination. Spring Boot, Redis cache, Swagger, Docker. - <a href="https://github.com/ydangishere/backend/tree/master/case-mini-backend" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li>Microservices: Multiple Spring Boot services, event-driven via Kafka. PostgreSQL, Redis, built to scale, Docker. - <a href="https://github.com/ydangishere/backend/tree/master/microservices" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li>Payment transaction API: Safe payment transaction API: idempotency keys to avoid duplicates, transaction-safe DB operations. Spring Boot, PostgreSQL, Redis. - <a href="https://github.com/ydangishere/backend/tree/master/payment-transaction-api" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li>SSO: Single sign-on: login once, use many apps. Auth service (JWT, session) + multiple client apps. Spring Boot, H2/PostgreSQL, Docker. - <a href="https://github.com/ydangishere/dev-projects/tree/main/sso" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li>WWE Champions Game (Product Management & UI) - <a href="https://www.figma.com/design/ZFH2TVKmdNAHc0jWTG9qUg/WWE-V2--edit---y-console---Copy---Copy-?node-id=341-4567&t=jeMWRPQ0KuRZJy2y-1" target="_blank">View</a></li>
+      <li>Sacombank Digital Banking Platform (Product Owner) - <a href="https://www.figma.com/design/RbxOSHy84nMzCKU5o7CLTB/Sacombank-Design-Direction---private?node-id=1307-3370&t=2FCqcArhQglGicvf-4" target="_blank">View</a></li>
+      <li>HDBank Mobile App (Product Strategy) - <a href="https://www.figma.com/proto/6c79HQU7BMNJiDNB7KqVNA?node-id=0-1&t=ibNOW04ku8qBZo3N-6" target="_blank">View</a></li>
+      <li>Third Place Marketplace (Product Owner) - <a href="https://www.figma.com/design/DH3wYYvun3dm4fXI1Wh73Q/Third-Place---(Backup30nov)?node-id=37-8778&t=tsZj3I5P4vBfh7R6-4" target="_blank">View</a></li>
+      <li>EVN App (Product Roadmap) - <a href="https://www.figma.com/design/lWJflNkyUKWSvsEkEyH0Mg/PTI-2-VNPOST-(Copy)?node-id=0-1&t=6czU6mrEBZr9GktR-1" target="_blank">View</a></li>
+      <li>Propzy Mortgage (Product Requirements) - <a href="https://www.figma.com/design/tFr8f3NxSw4UbuW4C7tPnd/Mortgage-Improvement--Y-?node-id=416-20016&t=THUh8yxVXjEWYXjB-4" target="_blank">View</a></li>
+      <li>Product Management Documentation - <a href="https://www.figma.com/design/XUQ8bKHFJVAJpGmLvjG9mO/Untitled-(Copy)?node-id=0-1&t=FCGqLMKqKOmzD1el-1" target="_blank">View</a></li>
+      <li>EIM (Employee Management) - <a href="https://www.figma.com/design/PAowgGrjCfuKk3qsgIsPab/EIM--Employee-information-management---Copy-?node-id=163-132669&t=vTDYP3I0lFOdq5LO-1" target="_blank">View</a></li>
+      <li>BPO (ERP) - <a href="https://www.figma.com/design/JsUJYt9olEDGGBSPEtuej7/BPO--Copy-?node-id=424-10969&t=9DZaj4t7cdQpMd2b-1" target="_blank">View</a></li>
+    </ul>
+  </div>
+
+  <div class="section trainings">
+    <h2>Other Trainings</h2>
+    <ul>
+      <li>Product Management Professional Certificate - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View</a></li>
+      <li>Certified Scrum Product Owner (CSPO) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View</a></li>
+      <li>Google UX Design Certificate (Coursera) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View</a></li>
+      <li>AWS Certified Cloud Practitioner - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View</a></li>
+      <li>Data Analytics for Product Managers - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View</a></li>
+      <li>The Complete Web Development Bootcamp (Udemy) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View</a></li>
+    </ul>
+  </div>
+</body>
+</html>
