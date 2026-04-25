@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Dang Van Y</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.27;
+      background: #fff;
+      color: #000;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      background-color: #c9f3f4;
+      padding: 6px;
+      color: #000;
+      border-left: 5px solid #009fa6;
+    }
+    .section {
+      margin-bottom: 24px;
+    }
+    .section h3 {
+      margin-bottom: 2px;
+    }
+    .section h3 + p {
+      margin-top: 0;
+    }
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .personal-details img {
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+      object-fit: contain;
+      max-height: none;
+      margin-top: 20px;
+    }
+    .personal-details p {
+      line-height: 1.21;
+      margin: 0 0 10px 0;
+    }
+    .portfolio a,
+    .trainings a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    .portfolio a:hover,
+    .trainings a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 16px;
+    }
+    .career-table td {
+      vertical-align: top;
+    }
+    .career-table td strong {
+      display: inline-block;
+    }
+    
+    /* Hide header and footer when printing */
+    @media print {
+      @page {
+        margin: 0.5cm;
+        size: auto;
+      }
+      body {
+        padding: 0;
+        margin: 0.4cm;
+      }
+      /* Hide date/time and URL when printing */
+      head, header, footer {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Curriculum Vitae</h1>
+
+  <div class="section personal-details">
+    <h2>Personal Details</h2>
+    <div class="flex">
+      <div>
+        <p><strong>Name:</strong> DANG VAN Y</p>
+        <p><strong>Mobile:</strong> 0908133919 | Email: dangvany@gmail.com</p>
+        <p><strong>Gender:</strong> Male</p>
+        <p><strong>Marital Status:</strong> Married</p>
+        <p><strong>Citizen of:</strong> Vietnam</p>
+        <p><strong>Position Applied:</strong> Platform Architect (Backend & Data)</p>
+      </div>
+      <img src="hinh-the.png" alt="Dang Van Y">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Career Summary</h2>
+    <table class="career-table" style="width: 100%; border-collapse: collapse;">
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 7px; border: 0; text-align: left;">Timeline</th>
+        <th style="padding: 7px; border: 0; text-align: left;">Company & Position</th>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 0;">Sep 2022 to present</td>
+        <td style="padding: 7px; border: 0;">
+          <strong>GEAR INC</strong> - Senior Backend Developer
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 0;">Nov 2020 to August 2022</td>
+        <td style="padding: 7px; border: 0;">
+          <strong>SACOMBANK</strong> - Backend Engineer
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 0;">Sep 2016 to Oct 2020</td>
+        <td style="padding: 7px; border: 0;">
+          <strong>PRUDENTIAL FINANCE</strong> - Java Developer
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 0;">Jul 2013 to Aug 2016</td>
+        <td style="padding: 7px; border: 0;">
+          <strong>RINGER VIETNAM</strong> - Full Stack Developer
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 7px; border: 0;">Jun 2009 to Jun 2013</td>
+        <td style="padding: 7px; border: 0;">
+          <strong>GAMELOFT VIETNAM</strong> - Frontend Developer
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Professional Experience</h2>
+    <h3>GEAR INC (Sep 2022 to Present)</h3>
+    <p><strong>Platform Architect / Senior Backend Engineer</strong></p>
+    <ul>
+      <li>Led end-to-end platform architecture for multi-tenant SaaS modules, defining service boundaries, API contracts, and extensible backend modules for long-term scaling.</li>
+      <li>Designed backend architecture and data models for operational systems and analytics workloads, including ingestion pipelines, normalization flows, and background workers.</li>
+      <li>Established security architecture with tenant data isolation, role-based and row-level access control, API authentication/authorization, and audit logging for traceability.</li>
+      <li>Guided developers and DevOps engineers through architecture reviews, code quality checks, and performance validation for concurrency, reliability, and maintainability.</li>
+      <li>Improved engineering delivery with CI/CD standards, release checklists, and stronger staging/UAT-to-production handover processes.</li>
+      <li>Drove AI-assisted engineering workflows using Claude and Codex for faster implementation, test scaffolding, and technical documentation.</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Project ends in Vietnam.</p>
+
+    <h3>SACOMBANK VIETNAM (Nov 2020 to 2022)</h3>
+    <p><strong>Senior Backend Engineer</strong></p>
+    <ul>
+      <li>Designed and scaled backend services and modular REST APIs for high-volume internal and customer-facing banking workflows.</li>
+      <li>Defined relational database architecture and optimized data access patterns for performance-critical transaction and reporting use cases.</li>
+      <li>Implemented secure API layers with OAuth2/JWT, fine-grained authorization, and encryption-aware data handling practices.</li>
+      <li>Worked cross-functionally with QA/UAT to validate architecture integrity, non-functional requirements, and production readiness.</li>
+      <li>Raised system throughput and response time through query tuning, caching strategy, and asynchronous processing patterns.</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Project ends.</p>
+
+    <h3>PRUDENTIAL FINANCE (Sep 2016 to 2020)</h3>
+    <p><strong>Senior Java Developer / Data Platform Engineer</strong></p>
+    <ul>
+      <li>Built backend systems using Java EE, Spring, and Hibernate with a strong focus on resilient service design and maintainable domain boundaries.</li>
+      <li>Designed financial data models, ETL-style ingestion flows, and API services that supported analytics and compliance reporting needs.</li>
+      <li>Contributed to architecture decisions around modularization, fault isolation, and operational observability for core services.</li>
+      <li>Strengthened delivery quality with automated test coverage, integration validation, and architecture-aligned code review practices.</li>
+      <li>Optimized Oracle/PostgreSQL workloads through indexing, query profiling, and data model improvements for sustained performance.</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Project completion.</p>
+
+    <h3>RINGER VIETNAM (Jul 2013 to Aug 2016)</h3>
+    <p><strong>Full Stack Developer</strong></p>
+    <ul>
+      <li>Developed backend services with Java/Spring and designed REST APIs for web and mobile product modules.</li>
+      <li>Contributed to early architecture planning, schema design, and integration decisions across frontend and backend boundaries.</li>
+      <li>Implemented production features using clean OOP patterns, version-controlled workflows, and Agile delivery practices.</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Project ends in Vietnam.</p>
+
+    <h3>GAMELOFT VIETNAM (Jun 2009 to Jun 2013)</h3>
+    <p><strong>Frontend Developer</strong></p>
+    <ul>
+      <li>Built product-facing interfaces and collaborated closely with backend teams, building strong cross-functional engineering communication.</li>
+      <li>Delivered stable cross-platform features in structured release cycles with distributed teams.</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Wanted to change environment.</p>
+  </div>
+
+  <div class="section">
+    <h2>Academic Background</h2>
+    <p><strong>2001 to 2005:</strong> Bachelor of Computer Science, Major in Software Engineering, RMIT Vietnam</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills and Knowledge</h2>
+    <ul>
+      <li><strong>Platform Architecture:</strong> Multi-tenant SaaS architecture, service boundaries, modular system design, API-first platform planning, scalable MVP-to-product evolution.</li>
+      <li><strong>Backend Architecture:</strong> Java, Spring Boot, Spring Framework, Java EE, Hibernate; microservices, distributed systems, background jobs, asynchronous processing patterns.</li>
+      <li><strong>API & Integration:</strong> REST APIs, OpenAPI/Swagger, event-driven integration patterns, secure third-party integration, ERP/data-source connectivity.</li>
+      <li><strong>Data Architecture:</strong> PostgreSQL, Oracle, MySQL; relational schema design, performance tuning, indexing strategy, ingestion and normalization pipeline design.</li>
+      <li><strong>Security Architecture:</strong> Tenant isolation strategy, row-level and role-based access control, OAuth2/JWT auth, encryption-at-rest/in-transit patterns, audit logging and traceability.</li>
+      <li><strong>Cloud & DevOps:</strong> AWS (EC2, S3, Lambda), Docker, CI/CD pipelines (GitHub Actions/Jenkins), release governance, staging/UAT/production environment coordination.</li>
+      <li><strong>Reliability & Observability:</strong> Performance tuning, concurrency validation, resilient error handling, monitoring foundations, production-readiness checks.</li>
+      <li><strong>Engineering Leadership:</strong> Architecture review, code quality standards, developer mentoring, cross-team collaboration with DevOps and QA/UAT teams.</li>
+      <li><strong>AI-Assisted Engineering:</strong> Practical use of Claude and Codex to accelerate development, testing workflows, documentation, and engineering productivity.</li>
+      <li><strong>Additional Stack Exposure:</strong> TypeScript/JavaScript, basic React/Next.js awareness, Redis and caching concepts, analytics-oriented platform design fundamentals.</li>
+      <li><strong>Professional Achievement:</strong> Led architecture and backend optimization initiatives that improved reliability and reduced API response latency in large-scale systems.</li>
+    </ul>
+    <p><strong>Languages:</strong> English (Fluent), Vietnamese (Excellent)</p>
+  </div>
+
+  <div class="section portfolio">
+    <h2>Portfolio Projects</h2>
+    <ul>
+      <li><strong>Autogpt feature:</strong> Multi-input realtime transcript/translation agent pipeline. - <a href="https://github.com/Significant-Gravitas/AutoGPT" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>AI backend job finder:</strong> Scrapes job sites, LLM filters backend jobs, desktop UI. - <a href="https://github.com/ydangishere/backend/tree/master/aibackendjob_finder" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>AI email router:</strong> LLM classifies email intent, routes to department, desktop app. - <a href="https://github.com/ydangishere/backend/tree/master/AIemailrouter" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>AI automation bot:</strong> Automates TradingView alert capture and sends screenshots to Telegram with saved session flow. - <a href="https://github.com/ydangishere/dev-projects/tree/main/AIautomationbot" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>AI video maker auto:</strong> End-to-end pipeline from topic to script, voiceover, and MP4 output with one-click run scripts and caching. - <a href="https://github.com/ydangishere/dev-projects/tree/main/videomakerauto" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>Case mini backend:</strong> Mini case/order management API: CRUD, validation, pagination. Spring Boot, Redis cache, Swagger, Docker. - <a href="https://github.com/ydangishere/backend/tree/master/case-mini-backend" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>Microservices:</strong> Multiple Spring Boot services, event-driven via Kafka. PostgreSQL, Redis, built to scale, Docker. - <a href="https://github.com/ydangishere/backend/tree/master/microservices" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>Shopify automation:</strong> Receives Shopify order webhooks, verifies HMAC, and syncs orders to Supabase with mock endpoint support. - <a href="https://github.com/ydangishere/dev-projects/tree/main/shopify-automation" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>Payment transaction API:</strong> Safe payment transaction API: idempotency keys to avoid duplicates, transaction-safe DB operations. Spring Boot, PostgreSQL, Redis. - <a href="https://github.com/ydangishere/backend/tree/master/payment-transaction-api" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li>WWE Champions Game (Product Management &amp; UI) - <a href="https://www.figma.com/design/ZFH2TVKmdNAHc0jWTG9qUg/WWE-V2--edit---y-console---Copy---Copy-?node-id=341-4567&t=jeMWRPQ0KuRZJy2y-1" target="_blank">View</a></li>
+      <li>Sacombank Digital Banking Platform (Product Owner) - <a href="https://www.figma.com/design/RbxOSHy84nMzCKU5o7CLTB/Sacombank-Design-Direction---private?node-id=1307-3370&t=2FCqcArhQglGicvf-4" target="_blank">View</a></li>
+      <li>HDBank Mobile App (Product Strategy) - <a href="https://www.figma.com/proto/6c79HQU7BMNJiDNB7KqVNA?node-id=0-1&t=ibNOW04ku8qBZo3N-6" target="_blank">View</a></li>
+      <li>Outdoors Marketplace (Product Manager) - <a href="https://www.figma.com/design/tgm79yu5Ei2MpYeGvsenpg/UOUTDOORS-private?node-id=1-2&t=hPALXmCWa6KDijrJ-4" target="_blank">View</a></li>
+      <li>Third Place Marketplace (Product Owner) - <a href="https://www.figma.com/design/DH3wYYvun3dm4fXI1Wh73Q/Third-Place---(Backup30nov)?node-id=37-8778&t=tsZj3I5P4vBfh7R6-4" target="_blank">View</a></li>
+      <li>EVN App (Product Roadmap) - <a href="https://www.figma.com/design/lWJflNkyUKWSvsEkEyH0Mg/PTI-2-VNPOST-(Copy)?node-id=0-1&t=6czU6mrEBZr9GktR-1" target="_blank">View</a></li>
+      <li>Propzy Mortgage (Product Requirements) - <a href="https://www.figma.com/design/tFr8f3NxSw4UbuW4C7tPnd/Mortgage-Improvement--Y-?node-id=416-20016&t=THUh8yxVXjEWYXjB-4" target="_blank">View</a></li>
+      <li>Playsweep (Web and Game) - <a href="https://www.figma.com/design/roqp1rjFYVOBiuTcNJML4q/Playsweep--Copy-?node-id=0-1&t=DIr0QH36fqATgKhC-1" target="_blank">View</a></li>
+      <li>Arcane Rush (Web and Game) - <a href="https://www.figma.com/design/Po1NjDQqDBKauB1F5HcQTZ/AR-Webstore--Copy-?node-id=0-1&t=GYqc3d67AxSgMYB0-1" target="_blank">View</a></li>
+      <li>EIM (Employee Management) - <a href="https://www.figma.com/design/PAowgGrjCfuKk3qsgIsPab/EIM--Employee-information-management---Copy-?node-id=163-132669&t=vTDYP3I0lFOdq5LO-1" target="_blank">View</a></li>
+      <li>BPO (ERP) - <a href="https://www.figma.com/design/JsUJYt9olEDGGBSPEtuej7/BPO--Copy-?node-id=424-10969&t=9DZaj4t7cdQpMd2b-1" target="_blank">View</a></li>
+    </ul>
+  </div>
+
+  <div class="section trainings">
+    <h2>Other Trainings</h2>
+    <ul>
+      <li>Product Management Professional Certificate - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View</a></li>
+      <li>Certified Scrum Product Owner (CSPO) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View</a></li>
+      <li>Google UX Design Certificate (Coursera) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View</a></li>
+      <li>AWS Certified Cloud Practitioner - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View</a></li>
+      <li>Data Analytics for Product Managers - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View</a></li>
+      <li>The Complete Web Development Bootcamp (Udemy) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View</a></li>
+    </ul>
+  </div>
+</body>
+</html>
