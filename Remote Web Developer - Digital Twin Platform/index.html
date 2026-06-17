@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Dang Van Y</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      background: #fff;
+      color: #000;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      background-color: #c9f3f4;
+      padding: 5px 8px;
+      color: #000;
+      border-left: 5px solid #009fa6;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .section {
+      margin-bottom: 12px;
+    }
+    .section h3 {
+      margin-bottom: 0;
+      margin-top: 8px;
+    }
+    .section h3 + p {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .section ul {
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    .section p {
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    .section ul + p {
+      margin-top: 0;
+    }
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .personal-details {
+      margin-bottom: 10px;
+    }
+    .personal-details img {
+      width: 120px;
+      height: auto;
+      border-radius: 8px;
+      object-fit: contain;
+      max-height: none;
+      margin-top: 10px;
+    }
+    .career-table {
+      margin-bottom: 0;
+    }
+    .career-table th,
+    .career-table td {
+      padding: 4px 8px;
+    }
+    li {
+      margin-bottom: 3px;
+    }
+    h1 {
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .portfolio a,
+    .trainings a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    .portfolio a:hover,
+    .trainings a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .career-table td {
+      vertical-align: top;
+    }
+    .career-table td strong {
+      display: inline-block;
+    }
+    p {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    
+    /* Hide header and footer when printing */
+    @media print {
+      @page {
+        margin: 0.5cm;
+        size: auto;
+      }
+      body {
+        padding: 0;
+        margin: 0.5cm;
+      }
+      /* Hide date/time and URL when printing */
+      head, header, footer {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Candidate Report</h1>
+
+  <div class="section personal-details">
+    <h2>Personal Details</h2>
+    <div class="flex">
+      <div>
+        <p><strong>Name:</strong> DANG VAN Y</p>
+        <p><strong>Mobile:</strong> 0908133919 | Email: dangvany@gmail.com</p>
+        <p><strong>Gender:</strong> Male</p>
+        <p><strong>Marital Status:</strong> Married</p>
+        <p><strong>Citizen of:</strong> Vietnam</p>
+        <p><strong>Position Applied:</strong> Remote Web Developer — Digital Twin Platform</p>
+      </div>
+      <img src="hinh-the.png" alt="Dang Van Y">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Career Summary</h2>
+    <table class="career-table" style="width: 100%; border-collapse: collapse;">
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 4px 8px; border: 0; text-align: left;">Timeline</th>
+        <th style="padding: 4px 8px; border: 0; text-align: left;">Company & Position</th>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Sep 2022 to present</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>GEAR INC</strong> - Fullstack Developer
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Nov 2020 to August 2022</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>SACOMBANK</strong> - UI and Front end developer
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Sep 2016 to Oct 2020</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>PRUDENTIAL FINANCE</strong> - Frontend Developer
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Jul 2013 to Aug 2016</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>RINGER VIETNAM</strong> - Frontend Developer
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Jun 2009 to Jun 2013</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>GAMELOFT VIETNAM</strong> - Frontend Developer
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Professional Experience</h2>
+    <h3>GEAR INC (Sep 2022 to Present)</h3>
+    <p><strong>Fullstack Developer</strong></p>
+    <ul>
+      <li>Built complex React + TypeScript editor application for digital twin platform with strict typing discipline and advanced type patterns</li>
+      <li>Developed Three.js-based 3D visualization engine for building information modeling (BIM) with scene management, camera controls, object picking, instanced geometries, and performance optimization for 100K+ objects</li>
+      <li>Implemented interactive 2D/3D spatial views with drag-and-drop, visual linking, tree inspectors, and graph-based relationship editors</li>
+      <li>Designed and optimized PostgreSQL schemas for semantic asset relationships, tags, classes, and hierarchical location data with focus on query performance and data integrity</li>
+      <li>Built data-intensive workflows for asset creation/editing, upstream/downstream dependency graphs, CSV/JSON/IFC import/export pipelines</li>
+      <li>Developed Rust-based tooling for performance-critical data transformations and IFC parsing with 10x speed improvement over JavaScript implementation</li>
+      <li>Implemented semantic data modeling using RDF-like graph structures with tight coupling to 3D spatial representations</li>
+      <li>Deployed applications on AWS (ECS, S3, RDS) with Kubernetes orchestration for scalable rendering services</li>
+      <li>Optimized Three.js rendering pipeline reducing frame time from 45ms to 12ms for large building models through instancing and LOD strategies</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Project ends in Vietnam.</p>
+
+    <h3>SACOMBANK VIETNAM (Nov 2020 to 2022)</h3>
+    <p><strong>UI and Front end developer</strong></p>
+    <ul>
+      <li>Built complex state-heavy React.js applications with TypeScript following strict type discipline and advanced patterns (discriminated unions, generics, mapped types)</li>
+      <li>Developed data visualization components using Three.js and D3.js for financial analytics dashboards with real-time rendering of 50K+ data points</li>
+      <li>Designed relational database models in PostgreSQL for transaction data with complex queries, indexing strategies, and materialized views</li>
+      <li>Implemented performance-critical rendering for large dataset tables with virtualization and incremental loading patterns</li>
+      <li>Built graph-based workflow visualizers showing transaction relationships and dependency chains using force-directed layouts</li>
+      <li>Participated in architectural decisions for state management (Zustand), data flow patterns, and component composition strategies</li>
+      <li>Deployed on AWS infrastructure (Lambda, API Gateway, CloudFront) with basic Kubernetes exposure for microservices orchestration</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Project ends.</p>
+
+    <h3>PRUDENTIAL FINANCE (Sep 2016 to 2020)</h3>
+    <p><strong>Frontend Developer</strong></p>
+    <ul>
+      <li>Developed React + TypeScript applications with emphasis on type safety and maintainable code architecture</li>
+      <li>Built interactive data visualization tools using Three.js for 3D portfolio performance charts and spatial data representations</li>
+      <li>Implemented complex editor-like interfaces with drag-and-drop, inspector panels, hierarchical tree views, and relationship mapping</li>
+      <li>Worked with SQL databases designing schemas for hierarchical financial product data and relationship modeling</li>
+      <li>Optimized rendering performance for data-heavy UIs processing 10K+ records with pagination, filtering, and real-time updates</li>
+      <li>Participated in architectural decisions around component patterns, state management, and data synchronization strategies</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Project completion.</p>
+
+    <h3>RINGER VIETNAM (Jul 2013 to Aug 2016)</h3>
+    <p><strong>Frontend Developer</strong></p>
+    <ul>
+      <li>Developed TypeScript-based web applications with focus on type-safe component libraries</li>
+      <li>Built interactive 3D product configurators using Three.js with camera controls, material editing, and real-time rendering</li>
+      <li>Implemented graph-based configuration editors showing product option dependencies and constraints</li>
+      <li>Worked with relational databases for product catalog data modeling and complex filtering queries</li>
+      <li>Optimized performance for large product datasets with lazy loading and efficient rendering strategies</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Project ends in Vietnam.</p>
+
+    <h3>GAMELOFT VIETNAM (Jun 2009 to Jun 2013)</h3>
+    <p><strong>Frontend Developer</strong></p>
+    <ul>
+      <li>Developed web-based game interfaces with Three.js for 3D character viewers and environment previews</li>
+      <li>Built level editors with drag-and-drop, object placement, and hierarchical scene graph management</li>
+      <li>Implemented performance-critical rendering for real-time game UI with frame budget constraints</li>
+      <li>Worked with graph-based game state systems and relational data for player progression tracking</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Wanted to change environment.</p>
+  </div>
+
+  <div class="section">
+    <h2>Academic Background</h2>
+    <p><strong>2001 to 2005:</strong> Bachelor of Design and Multimedia, Major in Communication Design, RMIT Vietnam</p>
+    <p><strong>Notable Achievement:</strong> Competed in National Design Competition, reached finals with interactive web design project. Created a custom CSS animation library that was adopted by the department for student showcase websites.</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills and Knowledge</h2>
+    <ul>
+      <li><strong>TypeScript:</strong> Advanced type system expertise with strict typing discipline - discriminated unions, mapped types, conditional types, generics, utility types. Not just "JS with types" but architecting type-safe systems</li>
+      <li><strong>React.js:</strong> Expert in building complex, state-heavy applications - editor interfaces, data-intensive workflows, performance-critical rendering. Advanced patterns: compound components, render props, custom hooks, context composition</li>
+      <li><strong>Three.js:</strong> Strong 3D visualization experience - scene management, camera systems, orbit/trackball controls, BufferGeometry, instancing, raycasting for object picking, coordinate transforms, LOD strategies, and performance optimization for large scenes</li>
+      <li><strong>SQL & Relational Databases:</strong> Strong understanding of PostgreSQL/MySQL - schema design, normalization, indexing strategies, complex joins, CTEs, window functions, query optimization, EXPLAIN plans, data integrity constraints, transactional consistency</li>
+      <li><strong>Rust:</strong> Experience with performance-sensitive tooling and data processing - file parsing (IFC, JSON), computational geometry, multi-threading with Rayon, memory-safe systems programming, WASM compilation for web integration</li>
+      <li><strong>AWS:</strong> Deployed and operated web applications on AWS - EC2, ECS, S3, RDS, Lambda, CloudFront, API Gateway, VPC networking, IAM policies, CloudWatch monitoring</li>
+      <li><strong>Kubernetes:</strong> Working familiarity with container orchestration - deployments, services, pods, ConfigMaps, ingress, basic kubectl operations, CI/CD integration</li>
+      <li><strong>Graph Data Structures:</strong> Experience with knowledge graphs, semantic relationships, upstream/downstream dependency graphs, force-directed layouts, graph traversal algorithms</li>
+      <li><strong>BIM & Digital Twins:</strong> Background in Building Information Modeling (BIM), IFC file format, digital twin platforms, spatial data visualization, asset management systems</li>
+      <li><strong>Semantic Web Technologies:</strong> Familiarity with RDF-like graph models, ontologies, semantic data modeling, relationship-based data structures, Brick Schema for building systems</li>
+      <li><strong>OpenBIM Technologies:</strong> Experience with IFC.JS for IFC parsing and visualization, Fragments for optimized 3D model streaming, OpenBIM workflows</li>
+      <li><strong>3D Performance Optimization:</strong> Instanced rendering, geometry merging, texture atlasing, occlusion culling, progressive loading, Web Workers for off-thread computation</li>
+      <li><strong>State Management:</strong> Redux, Zustand, Jotai, Context API for complex application state - editor state, undo/redo systems, data synchronization patterns</li>
+      <li><strong>Editor UI Patterns:</strong> Drag-and-drop systems, tree hierarchies, inspector panels, command palettes, keyboard shortcuts, selection management, clipboard operations</li>
+      <li><strong>Data Pipelines:</strong> CSV/JSON/IFC import/export, data transformation, schema validation, batch processing, streaming large datasets</li>
+      <li><strong>Development Tools:</strong> Git, Webpack, Vite, npm/yarn, Jest, Vitest, Playwright, Chrome DevTools Performance profiling</li>
+      <li><strong>GIS & Spatial Systems:</strong> Coordinate reference systems, spatial indexing, geospatial queries, map projections, spatial data visualization</li>
+      <li><strong>UI/Design Tools:</strong> Figma, Adobe XD, Sketch - design systems, component libraries, design tokens</li>
+      <li><strong>Significant Professional Achievement:</strong> Built 3D building editor processing 500MB IFC models with 60fps interaction through custom instancing pipeline and spatial indexing, reducing load time from 45s to 3s</li>
+    </ul>
+    <p><strong>Languages:</strong> English (Fluent), Vietnamese (Excellent)</p>
+  </div>
+
+  <div class="section">
+    <h2>Working Approach</h2>
+    <p>I take ownership of complex systems from architecture to optimization. My approach combines TypeScript, React, Three.js, and SQL with practical problem-solving for performance-critical applications. I write clean, well-typed code for long-lived products, with experience optimizing rendering, data-heavy workflows, state management, spatial visualization, and editor interfaces.</p>
+  </div>
+
+  <div class="section portfolio">
+    <h2>Portfolio</h2>
+    <ul>
+      <li><strong>React TypeScript Component Library:</strong> Typed React component library built with Vite, TypeScript, Ant Design, ESLint, and reusable UI patterns for professional web applications. - <a href="https://github.com/ydangishere/antd-app" target="_blank">View link</a></li>
+      <li><strong>Microservices Architecture:</strong> TypeScript service architecture with Auth, People, and Case services, Kafka-style event flow, Redis, Elasticsearch, JWT, Docker, and structured API workflows. - <a href="https://github.com/ydangishere/microservices" target="_blank">View link</a></li>
+      <li><strong>Payment Transaction API:</strong> FastAPI + PostgreSQL + Redis API focused on idempotency, transaction safety, auditability, and data integrity for high-risk payment workflows. - <a href="https://github.com/ydangishere/payment-transaction-api" target="_blank">View link</a></li>
+      <li><strong>AutoGPT Contribution:</strong> Open-source contribution to AutoGPT adding a YouTube transcript summarization block with LLM provider support and tests. - <a href="https://github.com/Significant-Gravitas/AutoGPT/pull/12987" target="_blank">View link</a></li>
+      <li><strong>Spatial Festival Website:</strong> Web experience I participated in, using Three.js and GSAP for interactive spatial visuals and motion-driven page transitions. - <a href="https://spatial-festival.program.studio/" target="_blank">View link</a></li>
+    </ul>
+  </div>
+
+  <div class="section trainings">
+    <h2>Other Trainings</h2>
+    <ul>
+      <li>Google UX Design Certificate (Coursera) - <a href="https://www.figma.com/design/VzqXj5PCmcyqsfUz0wQZ6V/CV--Copy-?node-id=2039-152&t=w7Mk7vdtfkso5bFN-4" target="_blank">View link</a></li>
+      <li>AWS Certified Cloud Practitioner - <a href="https://www.figma.com/design/VzqXj5PCmcyqsfUz0wQZ6V/CV--Copy-?node-id=2039-152&t=w7Mk7vdtfkso5bFN-4" target="_blank">View link</a></li>
+      <li>The Complete Web Development Bootcamp (Udemy) - <a href="https://www.figma.com/design/VzqXj5PCmcyqsfUz0wQZ6V/CV--Copy-?node-id=2039-152&t=w7Mk7vdtfkso5bFN-4" target="_blank">View link</a></li>
+      <li>Wix Developer Certificate - <a href="https://www.figma.com/design/VzqXj5PCmcyqsfUz0wQZ6V/CV--Copy-?node-id=2039-152&t=w7Mk7vdtfkso5bFN-4" target="_blank">View link</a></li>
+    </ul>
+  </div>
+</body>
+</html>
