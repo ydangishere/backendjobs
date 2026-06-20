@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Dang Van Y</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      background: #fff;
+      color: #000;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      background-color: #c9f3f4;
+      padding: 5px 8px;
+      color: #000;
+      border-left: 5px solid #009fa6;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .section {
+      margin-bottom: 12px;
+    }
+    .section h3 {
+      margin-bottom: 0;
+      margin-top: 8px;
+    }
+    .section h3 + p {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .section ul {
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    .section p {
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    .section ul + p {
+      margin-top: 0;
+    }
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .personal-details {
+      margin-bottom: 10px;
+    }
+    .personal-details img {
+      width: 120px;
+      height: auto;
+      border-radius: 8px;
+      object-fit: contain;
+      max-height: none;
+      margin-top: 10px;
+    }
+    .career-table {
+      margin-bottom: 0;
+    }
+    .career-table th,
+    .career-table td {
+      padding: 4px 8px;
+    }
+    li {
+      margin-bottom: 3px;
+    }
+    h1 {
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .portfolio a,
+    .trainings a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    .portfolio a:hover,
+    .trainings a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .career-table td {
+      vertical-align: top;
+    }
+    .career-table td strong {
+      display: inline-block;
+    }
+    p {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    
+    /* Hide header and footer when printing */
+    @media print {
+      @page {
+        margin: 0.5cm;
+        size: auto;
+      }
+      body {
+        padding: 0;
+        margin: 0.5cm;
+      }
+      /* Hide date/time and URL when printing */
+      head, header, footer {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Candidate Report</h1>
+
+  <div class="section personal-details">
+    <h2>Personal Details</h2>
+    <div class="flex">
+      <div>
+        <p><strong>Name:</strong> DANG VAN Y</p>
+        <p><strong>Mobile:</strong> 0908133919 | Email: dangvany@gmail.com</p>
+        <p><strong>Gender:</strong> Male</p>
+        <p><strong>Marital Status:</strong> Married</p>
+        <p><strong>Citizen of:</strong> Vietnam</p>
+        <p><strong>Position Applied:</strong> Fullstack Engineer (Golang, ReactJS)</p>
+      </div>
+      <img src="hinh-the.png" alt="Dang Van Y">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Career Summary</h2>
+    <table class="career-table" style="width: 100%; border-collapse: collapse;">
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 4px 8px; border: 0; text-align: left;">Timeline</th>
+        <th style="padding: 4px 8px; border: 0; text-align: left;">Company & Position</th>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Sep 2022 to Present</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>GEAR INC</strong> - Fullstack Engineer (Golang, ReactJS)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Nov 2020 to August 2022</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>SACOMBANK</strong> - Fullstack Engineer (Golang, ReactJS)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Sep 2016 to Oct 2020</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>PRUDENTIAL FINANCE</strong> - Fullstack Developer (Golang, ReactJS)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Jul 2013 to Aug 2016</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>RINGER VIETNAM</strong> - Frontend Developer (ReactJS)
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Professional Experience</h2>
+    <h3>GEAR INC (Sep 2022 to Present)</h3>
+    <p><strong>Fullstack Engineer (Golang, ReactJS)</strong></p>
+    <ul>
+      <li>Designed, developed, and maintained web applications leveraging Golang for server-side development, ReactJS for the front end, and AWS services for cloud infrastructure</li>
+      <li>Wrote efficient, reusable, and testable code in Golang for server-side development; developed responsive and user-friendly front-end applications using ReactJS with TypeScript</li>
+      <li>Designed and implemented robust and scalable RESTful APIs; proficient in data modeling, database design, and optimization with PostgreSQL, MySQL, MongoDB</li>
+      <li>Integrated web applications with AWS services (S3, Lambda, EC2, RDS), ensuring optimal performance and reliability; used Redis for caching, Kafka for event streaming</li>
+      <li>Collaborated with UI/UX designers to implement visually appealing user interfaces; provided UI/UX consulting in partnership with designers</li>
+      <li>Troubleshot, debugged and resolved issues throughout the development lifecycle; participated in code reviews and provided constructive feedback to team members</li>
+      <li>Worked in Agile/Scrum environment with cross-functional teams to define, design, and ship new features; used JIRA for project tracking</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Project ended (Vietnam).</p>
+
+    <h3>SACOMBANK VIETNAM (Nov 2020 to 2022)</h3>
+    <p><strong>Fullstack Engineer (Golang, ReactJS)</strong></p>
+    <ul>
+      <li>Developed web applications with Golang backend and ReactJS frontend; built server-side services handling data modeling, database design, and optimization</li>
+      <li>Designed and implemented RESTful APIs for banking platform; integrated with PostgreSQL, Redis, and AWS services for scalable cloud infrastructure</li>
+      <li>Developed responsive and user-friendly front-end applications using ReactJS, TypeScript, Material-UI; collaborated with UI/UX designers on interface implementation</li>
+      <li>Optimized database queries and API performance; reduced application load time by 35% through efficient code and caching strategies</li>
+      <li>Participated in Agile/Scrum ceremonies; collaborated with cross-functional teams to define, design, and ship new features; conducted code reviews</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Project ended.</p>
+
+    <h3>PRUDENTIAL FINANCE (Sep 2016 to 2020)</h3>
+    <p><strong>Fullstack Developer (Golang, ReactJS)</strong></p>
+    <ul>
+      <li>Built web applications leveraging Golang for server-side development and ReactJS for frontend; wrote efficient and testable backend code</li>
+      <li>Designed robust RESTful APIs; handled data modeling, database design, and optimization with PostgreSQL and MongoDB</li>
+      <li>Developed responsive front-end applications using ReactJS; collaborated with UI/UX designers to implement user interfaces</li>
+      <li>Integrated applications with AWS services; troubleshot and debugged issues throughout development lifecycle</li>
+      <li>Worked in Agile/Scrum teams; participated in sprint planning, code reviews, and collaborated with cross-functional teams</li>
+    </ul>
+    <p><strong>Reason for leaving:</strong> Project completed.</p>
+
+  </div>
+
+  <div class="section">
+    <h2>Academic Background</h2>
+    <p><strong>2001 to 2005:</strong> Bachelor of Design and Multimedia, Major in Communication Design, RMIT Vietnam</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills and Knowledge</h2>
+    <ul>
+      <li><strong>Backend Development (Golang):</strong> Proficient in Golang for server-side development; data modeling, database design, and optimization; efficient, reusable, and testable code</li>
+      <li><strong>Frontend Development (ReactJS):</strong> Skilled in ReactJS, TypeScript, JavaScript (ES6+); HTML5, CSS3; state management (Redux, React Query); providing UI/UX consulting in partnership with designers; responsive and user-friendly front-end applications</li>
+      <li><strong>API Development:</strong> Design and implement robust and scalable RESTful APIs; microservices architecture; API optimization and performance tuning</li>
+      <li><strong>Database:</strong> PostgreSQL, MySQL, MongoDB; proficient in data modeling, database design, and optimization; query optimization and performance tuning</li>
+      <li><strong>AWS Services:</strong> Integrate web applications with AWS services (S3, Lambda, EC2, RDS); ensure optimal performance and reliability; cloud infrastructure management</li>
+      <li><strong>Caching & Messaging:</strong> Redis for caching; Kafka for event streaming; ElasticSearch for search functionality</li>
+      <li><strong>UI/UX Collaboration:</strong> Collaborate with UI/UX designers to implement visually appealing user interfaces; provide UI/UX consulting; translate designs into functional components</li>
+      <li><strong>Development Practices:</strong> Write efficient, reusable, and testable code; troubleshoot, debug and resolve issues throughout the development lifecycle; participate in code reviews and provide constructive feedback</li>
+      <li><strong>Team Collaboration:</strong> Collaborate with cross-functional teams to define, design, and ship new features; Agile/Scrum methodology; JIRA, Confluence, Git</li>
+      <li><strong>DevOps & Tools:</strong> Docker, Kubernetes; CI/CD pipelines (GitHub Actions, Jenkins); automated testing and deployment</li>
+    </ul>
+    <p><strong>Languages:</strong> English (Fluent - B2 level), Vietnamese (Native)</p>
+    <p><strong>Experience:</strong> 7+ years in software development with focus on Golang backend and ReactJS frontend</p>
+  </div>
+
+  <div class="section portfolio">
+    <h2>Portfolio</h2>
+    <ul>
+      <li><strong>Payment Gateway (Fullstack):</strong> Demo payment flow: create order, redirect, callback, verify, update DB. Next.js (App Router), React, TypeScript, TailwindCSS, SQLite. Idempotency, signature verification. — <a href="https://github.com/ydangishere/dev-projects/tree/main/nextjs-payment" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>Microservices System:</strong> Multiple backend services, event-driven architecture via Kafka. RESTful APIs, PostgreSQL, Redis, ElasticSearch. Built for scalability, Docker. Demonstrates microservices patterns, data modeling, and database optimization. — <a href="https://github.com/ydangishere/dev-projects/tree/main/microservices" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>Assessment & Billing Platform (Fullstack):</strong> Full stack app with backend API and frontend SPA for user assessments and billing tracking. FastAPI backend, Vue 3 + TypeScript frontend, PostgreSQL, Docker Compose, pytest API tests. — <a href="https://github.com/ydangishere/dev-projects/tree/main/assessment-billing-demo" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>Payment Transaction API:</strong> Robust payment transaction API with idempotency keys to prevent duplicates, transaction-safe database operations. PostgreSQL, Redis caching. Demonstrates data modeling and database design. — <a href="https://github.com/ydangishere/dev-projects/tree/main/payment-transaction-api" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>Stripe Webhook Handler:</strong> Backend microservice for Stripe webhook signature verification, idempotent event processing, audit logging. RESTful API design, Docker Compose, pytest. — <a href="https://github.com/ydangishere/dev-projects/tree/main/stripe-webhook-demo" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>SSO System:</strong> Single Sign-On authentication system. Login once, access multiple apps. Auth service (IdP) + 2 client applications with JWT token-based authentication. Demonstrates security and authentication design. — <a href="https://github.com/ydangishere/dev-projects/tree/main/sso" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>HRM Mini (Frontend):</strong> Web-based HRM demo with SvelteKit frontend and Supabase backend. Employee directory, leave requests, admin vs employee access. PostgreSQL with RLS. — <a href="https://github.com/ydangishere/dev-projects/tree/main/hrm" target="_blank" rel="noopener noreferrer">View</a></li>
+      <li><strong>Shopify Integration:</strong> Node.js service syncing Shopify orders to Supabase via webhooks. Demonstrates third-party API integration and event-driven architecture. — <a href="https://github.com/ydangishere/dev-projects/tree/main/shopify-automation" target="_blank" rel="noopener noreferrer">View</a></li>
+    </ul>
+  </div>
+
+  <div class="section trainings">
+    <h2>Other Trainings</h2>
+    <ul>
+      <li>Product Management Professional Certificate - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>Certified Scrum Product Owner (CSPO) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>Google UX Design Certificate (Coursera) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>AWS Certified Cloud Practitioner - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>Data Analytics for Product Managers - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>The Complete Web Development Bootcamp (Udemy) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+    </ul>
+  </div>
+</body>
+</html>
