@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Dang Van Y</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      background: #fff;
+      color: #000;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      background-color: #c9f3f4;
+      padding: 5px 8px;
+      color: #000;
+      border-left: 5px solid #009fa6;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .section {
+      margin-bottom: 12px;
+    }
+    .section h3 {
+      margin-bottom: 0;
+      margin-top: 8px;
+    }
+    .section h3 + p {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .section ul {
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    .section p {
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+    .section ul + p {
+      margin-top: 0;
+    }
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .personal-details {
+      margin-bottom: 10px;
+    }
+    .personal-details img {
+      width: 120px;
+      height: auto;
+      border-radius: 8px;
+      object-fit: contain;
+      max-height: none;
+      margin-top: 10px;
+    }
+    .career-table {
+      margin-bottom: 0;
+    }
+    .career-table th,
+    .career-table td {
+      padding: 4px 8px;
+    }
+    li {
+      margin-bottom: 3px;
+    }
+    h1 {
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .portfolio a,
+    .trainings a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    .portfolio a:hover,
+    .trainings a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .career-table td {
+      vertical-align: top;
+    }
+    .career-table td strong {
+      display: inline-block;
+    }
+    p {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    
+    /* Hide header and footer when printing */
+    @media print {
+      @page {
+        margin: 0.5cm;
+        size: auto;
+      }
+      body {
+        padding: 0;
+        margin: 0.5cm;
+      }
+      /* Hide date/time and URL when printing */
+      head, header, footer {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Candidate Report</h1>
+
+  <div class="section personal-details">
+    <h2>Personal Details</h2>
+    <div class="flex">
+      <div>
+        <p><strong>Name:</strong> DANG VAN Y</p>
+        <p><strong>Mobile:</strong> 0908133919 | Email: dangvany@gmail.com</p>
+        <p><strong>Gender:</strong> Male</p>
+        <p><strong>Marital Status:</strong> Married</p>
+        <p><strong>Citizen of:</strong> Vietnam</p>
+        <p><strong>Position Applied:</strong> AI-Native Product Engineer - Remote</p>
+      </div>
+      <img src="hinh-the.png" alt="Dang Van Y">
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Career Summary</h2>
+    <table class="career-table" style="width: 100%; border-collapse: collapse;">
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 4px 8px; border: 0; text-align: left;">Timeline</th>
+        <th style="padding: 4px 8px; border: 0; text-align: left;">Company & Position</th>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Sep 2022 to Present</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>GEAR INC</strong> - AI/ML Engineer (Fullstack & AI Products)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Nov 2020 to August 2022</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>SACOMBANK</strong> - AI Developer / Fullstack (Data Pipelines & Automation)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Sep 2016 to Oct 2020</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>PRUDENTIAL FINANCE</strong> - Fullstack Developer (ML, Analytics & Data Pipelines)
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Jul 2013 to Aug 2016</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>RINGER VIETNAM</strong> - Senior Frontend Developer
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 4px 8px; border: 0;">Jun 2009 to Jun 2013</td>
+        <td style="padding: 4px 8px; border: 0;">
+          <strong>GAMELOFT VIETNAM</strong> - Frontend Developer
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Introduction</h2>
+    <p>AI-native product engineer with hands-on full-stack experience across Python, TypeScript, frontend applications, backend services, APIs, databases, cloud infrastructure, and production AI systems. I translate product requirements into technical plans, decompose delivery into clear tasks for AI coding agents, and use Codex and Claude as part of the implementation, review, testing, and documentation workflow. I take ownership from solution design through production validation, reviewing generated code for correctness, architecture, security, maintainability, and hidden assumptions while working closely with Product, Engineering, QA, and business stakeholders in fluent written and spoken English.</p>
+  </div>
+
+  <div class="section">
+    <h2>Professional Experience</h2>
+    <h3>GEAR INC (Sep 2022 to Present)</h3>
+    <p><strong>AI/ML Engineer (Fullstack & AI Products)</strong></p>
+    <ul>
+      <li>Collaborated with Product and Engineering to turn product requirements into technical plans and deliver AI-enabled features end-to-end across frontend, backend, APIs, databases, and cloud services</li>
+      <li>Directed AI-assisted implementation with Codex and Claude by defining scoped tasks, supplying technical context, reviewing generated changes, and correcting faulty assumptions before integration</li>
+      <li>Reviewed code and architecture for correctness, maintainability, security, data handling, failure modes, and production readiness; resolved defects through systematic debugging and validation</li>
+      <li>Built Python services and automation pipelines for extraction, enrichment, preprocessing, and AI workflows; developed TypeScript and Node.js/NestJS APIs consumed by product interfaces and internal tools</li>
+      <li>Designed RAG, intelligent-agent, and hybrid AI workflows with GPT models, Gemini, LangChain, and FAISS; integrated them into production SaaS through REST and GraphQL APIs</li>
+      <li>Defined and reviewed unit, integration, and end-to-end test scenarios covering business rules, API contracts, data flows, error handling, and regression risks</li>
+      <li>Debugged production issues across application, data, integration, and infrastructure layers; validated fixes in delivery pipelines and monitored behavior after release</li>
+      <li>Supported secure deployments on AWS with Docker and CI/CD, collaborating asynchronously with Product, QA, and Engineering through clear English documentation and technical communication</li>
+    </ul>
+
+    <h3>SACOMBANK VIETNAM (Nov 2020 to 2022)</h3>
+    <p><strong>AI Developer / Fullstack (Data Pipelines & Automation)</strong></p>
+    <ul>
+      <li>Delivered full-stack features for digital banking and internal platforms by refining requirements, designing service interactions, implementing APIs, and coordinating validation with Product and QA</li>
+      <li>Built Python orchestration and data pipelines for extraction, transformation, model input, and automated workflows; integrated AI services for classification, retrieval, and virtual-agent experiences</li>
+      <li>Developed and reviewed REST and GraphQL services with Node.js and Java Spring, backed by PostgreSQL, Redis, ElasticSearch, and event-driven integrations</li>
+      <li>Applied system-design principles to API contracts, database schemas, asynchronous processing, authentication, authorization, and failure recovery in production banking systems</li>
+      <li>Used automated unit and integration testing, Docker, Jenkins CI/CD, and release checks to verify correctness and reduce regression risk before production deployment</li>
+      <li>Investigated application and integration incidents, traced defects across services and data stores, implemented fixes, and documented technical decisions for distributed teams</li>
+    </ul>
+
+    <h3>PRUDENTIAL FINANCE (Sep 2016 to 2020)</h3>
+    <p><strong>Fullstack Developer (ML, Analytics & Data Pipelines)</strong></p>
+    <ul>
+      <li>Developed full-stack product capabilities spanning responsive interfaces, backend services, API integrations, databases, analytics, and Python automation</li>
+      <li>Translated business workflows into maintainable technical designs and delivered features through the full software lifecycle from analysis and implementation to testing and release support</li>
+      <li>Worked with PostgreSQL, MongoDB, Redis, ElasticSearch, Kafka, and AWS while reviewing existing code, integration boundaries, and data models for reliability and maintainability</li>
+      <li>Created automated tests, diagnosed defects across frontend and backend layers, and collaborated with stakeholders in Agile delivery cycles</li>
+    </ul>
+
+    <h3>RINGER VIETNAM (Jul 2013 to Aug 2016)</h3>
+    <p><strong>Senior Frontend Developer</strong></p>
+    <ul>
+      <li>Built React and TypeScript applications integrated with REST and GraphQL services, working across Node.js/Express APIs and PostgreSQL-backed product flows</li>
+      <li>Reviewed implementation quality, wrote automated tests, debugged cross-layer issues, and supported maintainable delivery through Git-based Agile workflows</li>
+    </ul>
+
+    <h3>GAMELOFT VIETNAM (Jun 2009 to Jun 2013)</h3>
+    <p><strong>Frontend Developer</strong></p>
+    <ul>
+      <li>Developed frontend product features with JavaScript and TypeScript, integrated backend APIs, reviewed existing code, and resolved defects through collaborative testing and release cycles</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Academic Background</h2>
+    <p><strong>2001 to 2005:</strong> Bachelor of Design and Multimedia, Major in Communication Design, RMIT Vietnam</p>
+  </div>
+
+  <div class="section">
+    <h2>Skills and Knowledge</h2>
+    <ul>
+      <li><strong>AI-native engineering:</strong> Hands-on use of Codex and Claude for implementation, code analysis, test scaffolding, debugging, refactoring, and technical documentation; skilled at writing clear tasks and supplying the context and constraints AI coding agents need</li>
+      <li><strong>Code and architecture review:</strong> Independently assess AI-generated and human-written code for correctness, architectural fit, security risks, maintainability, failure handling, and unsupported assumptions</li>
+      <li><strong>Full-stack development:</strong> Python, TypeScript, JavaScript, React, Node.js, Express, NestJS, and Java Spring Boot across frontend applications, backend services, automation, and production integrations</li>
+      <li><strong>System design:</strong> Service boundaries, API contracts, modular architecture, asynchronous workflows, event-driven integration, background processing, scalability, reliability, and observability</li>
+      <li><strong>APIs and data:</strong> REST, GraphQL, PostgreSQL, MySQL, MongoDB, Redis, ElasticSearch, Kafka; schema design, data pipelines, validation, authentication, authorization, and third-party integrations</li>
+      <li><strong>Testing and quality:</strong> Unit, integration, end-to-end, regression, and API testing; test design, code review, root-cause analysis, production debugging, fix validation, and release-readiness checks</li>
+      <li><strong>Security and production systems:</strong> Secure API design, OAuth/JWT concepts, access control, data protection, CI/CD, Docker, AWS, monitoring, incident investigation, and maintainable production delivery</li>
+      <li><strong>AI/LLM systems:</strong> GPT models, Gemini, open-source models, LangChain, FAISS, RAG, intelligent agents, structured extraction, classification, data enrichment, and production AI integration</li>
+      <li><strong>Product ownership and collaboration:</strong> Requirement analysis, technical planning, task decomposition, end-to-end delivery ownership, Agile/Scrum, and clear English communication with Product, Engineering, QA, and business stakeholders</li>
+    </ul>
+    <p><strong>Languages:</strong> English (Fluent – verbal and written), Vietnamese (Excellent)</p>
+  </div>
+
+  <div class="section portfolio">
+    <h2>Portfolio</h2>
+    <ul>
+      <li>Scrapeneatly (AI Automation) - Web scraping with LLM extraction, Playwright, structured output - GitHub: <a href="https://github.com/ydangishere/scrapeneatly" target="_blank">View link</a> | Tech: Python, Playwright, OpenAI, web scraping</li>
+      <li>Case Mini Backend – Spring Boot (Backend Developer) - Mini order management API (CRUD, validation, pagination) - Live API: <a href="https://case-mini-backend.onrender.com" target="_blank">View link</a> | GitHub: <a href="https://github.com/ydangishere/case-mini-backend" target="_blank">View link</a> | Tech: Spring Boot 3.2, Java 17, Docker, Render</li>
+      <li>Order-payment-transactions (Backend Developer) - Payment & transaction workflow demo (idempotency, status tracking) - Live API: <a href="https://payment-transaction-api.onrender.com" target="_blank">View link</a> | GitHub: <a href="https://github.com/ydangishere/payment-transaction-api" target="_blank">View link</a> | Interactive Docs: <a href="https://payment-transaction-api.onrender.com/docs" target="_blank">View link</a></li>
+      <li>Microservice (Backend Developer) - GitHub: <a href="https://github.com/ydangishere/microservices" target="_blank">View link</a></li>
+      <li>AI Job Scraper (AI Automation) - Scrape job boards (LinkedIn, Indeed, Glassdoor), LLM filter, export Excel - GitHub: <a href="https://github.com/ydangishere/aijobscraper" target="_blank">View link</a> | Tech: Python, OpenAI, web scraping</li>
+      <li>WWE Champions Game (Product Management & UI) - <a href="https://www.figma.com/design/ZFH2TVKmdNAHc0jWTG9qUg/WWE-V2--edit---y-console---Copy---Copy-?node-id=341-4567&t=jeMWRPQ0KuRZJy2y-1" target="_blank">View link</a></li>
+      <li>Sacombank Digital Banking Platform (Product Owner) - <a href="https://www.figma.com/design/RbxOSHy84nMzCKU5o7CLTB/Sacombank-Design-Direction---private?node-id=1307-3370&t=2FCqcArhQglGicvf-4" target="_blank">View link</a></li>
+      <li>HDBank Mobile App (Product Strategy) - <a href="https://www.figma.com/proto/6c79HQU7BMNJiDNB7KqVNA?node-id=0-1&t=ibNOW04ku8qBZo3N-6" target="_blank">View link</a></li>
+      <li>Outdoors Marketplace (Product Manager) - <a href="https://www.figma.com/design/tgm79yu5Ei2MpYeGvsenpg/UOUTDOORS-private?node-id=1-2&t=hPALXmCWa6KDijrJ-4" target="_blank">View link</a></li>
+      <li>Third Place Marketplace (Product Owner) - <a href="https://www.figma.com/design/DH3wYYvun3dm4fXI1Wh73Q/Third-Place---(Backup30nov)?node-id=37-8778&t=tsZj3I5P4vBfh7R6-4" target="_blank">View link</a></li>
+      <li>EVN App (Product Roadmap) - <a href="https://www.figma.com/design/lWJflNkyUKWSvsEkEyH0Mg/PTI-2-VNPOST-(Copy)?node-id=0-1&t=6czU6mrEBZr9GktR-1" target="_blank">View link</a></li>
+      <li>Propzy Mortgage (Product Requirements) - <a href="https://www.figma.com/design/tFr8f3NxSw4UbuW4C7tPnd/Mortgage-Improvement--Y-?node-id=416-20016&t=THUh8yxVXjEWYXjB-4" target="_blank">View link</a></li>
+      <li>Product Management Documentation - <a href="https://www.figma.com/design/XUQ8bKHFJVAJpGmLvjG9mO/Untitled-(Copy)?node-id=0-1&t=FCGqLMKqKOmzD1el-1" target="_blank">View link</a></li>
+      <li>Playsweep (Web and Game) - <a href="https://www.figma.com/design/roqp1rjFYVOBiuTcNJML4q/Playsweep--Copy-?node-id=0-1&t=DIr0QH36fqATgKhC-1" target="_blank">View link</a></li>
+      <li>Arcane Rush (Web and Game) - <a href="https://www.figma.com/design/roqp1rjFYVOBiuTcNJML4q/Playsweep--Copy-?node-id=0-1&t=DIr0QH36fqATgKhC-1" target="_blank">View link</a></li>
+      <li>EIM (Employee Management) - <a href="https://www.figma.com/design/PAowgGrjCfuKk3qsgIsPab/EIM--Employee-information-management---Copy-?node-id=163-132669&t=vTDYP3I0lFOdq5LO-1" target="_blank">View link</a></li>
+      <li>BPO (ERP) - <a href="https://www.figma.com/design/JsUJYt9olEDGGBSPEtuej7/BPO--Copy-?node-id=424-10969&t=9DZaj4t7cdQpMd2b-1" target="_blank">View link</a></li>
+    </ul>
+  </div>
+
+  <div class="section trainings">
+    <h2>Other Trainings</h2>
+    <ul>
+      <li>Product Management Professional Certificate - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>Certified Scrum Product Owner (CSPO) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>Google UX Design Certificate (Coursera) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>AWS Certified Cloud Practitioner - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>Data Analytics for Product Managers - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+      <li>The Complete Web Development Bootcamp (Udemy) - <a href="https://www.figma.com/design/28KI2IsbKvUWCQUOvuKGJs/certificate?node-id=1-4&t=fFLe7jumNqSgHdOR-4" target="_blank">View link</a></li>
+    </ul>
+  </div>
+</body>
+</html>
